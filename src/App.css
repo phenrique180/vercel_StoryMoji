@@ -1,0 +1,35 @@
+.container-app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsla(141, 54%, 86%, 1);
+
+  background: hsla(197, 100%, 63%, 1);
+
+  background: radial-gradient(circle, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  
+  background: -moz-radial-gradient(circle, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  
+  background: -webkit-radial-gradient(circle, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40c9ff", endColorstr="#e81cff", GradientType=1 );
+}
+
+.emoji{
+  width: 90vw;
+  height: 90vw;
+  background-color: #ffbbbb50;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  /* background-color: blue; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* font-size: 190px; */
+  font-size: clamp(20px, 80vw, 190px);
+
+  border-radius: 25px;
+}
